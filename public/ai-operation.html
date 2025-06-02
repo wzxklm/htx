@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI运营</title>
+    <link rel="icon" href="assets/htx_pic.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ai-operation.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 style="color: white !important;">AI运营</h1>
+            <a href="index.html" class="back-link">返回主页</a>
+        </header>
+
+        <section class="email-section">
+            <h2>发送请求</h2>
+            <form id="email-form">
+                <div class="email-container">
+                    <label for="email-input">请留下你的邮箱，我们的AI小助手将迅速与您联系:</label>
+                    <input type="email" id="email-input" placeholder="请输入邮箱..." required>
+                </div>
+                
+                <button type="submit" class="save-button">保存</button>
+            </form>
+        </section>
+
+        <section class="response-display">
+            <h2>回复</h2>
+            <div id="response-content">
+                <div class="no-response-message">暂无回复内容</div>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/ai-operation.js"></script>
+</body>
+</html>

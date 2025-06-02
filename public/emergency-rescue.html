@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI数据库</title>
+    <link rel="icon" href="assets/htx_pic.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/emergency-rescue.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 style="color: white !important;">AI数据库</h1>
+            <a href="index.html" class="back-link">返回主页</a>
+        </header>
+
+        <section class="upload-section">
+            <h2>上传文件</h2>
+            <form id="upload-form">
+                <div class="file-input-container">
+                    <input type="file" id="file-input" accept="image/*,text/*,video/*">
+                    <label for="file-input" class="file-input-label">选择文件</label>
+                    <span id="file-name">未选择文件</span>
+                </div>
+                
+                <div class="description-container">
+                    <label for="file-description">文件描述:</label>
+                    <textarea id="file-description" placeholder="请输入文件描述..." required></textarea>
+                </div>
+                
+                <button type="submit" class="upload-button">上传文件</button>
+            </form>
+        </section>
+
+        <section class="files-display">
+            <h2>已上传文件</h2>
+            <div id="files-list">
+                <!-- 文件将通过JavaScript动态添加 -->
+                <div class="no-files-message">暂无上传文件</div>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/emergency-rescue.js"></script>
+</body>
+</html>

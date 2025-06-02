@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1742532804959",
+    "name": "shixi.jpg",
+    "filename": "1742532804398-63327030-shixi.jpg",
+    "type": "image/jpeg",
+    "size": 1322322,
+    "description": "实习证明",
+    "timestamp": 1742532804959,
+    "path": "http://8.138.134.78:8091/uploads/1742532804398-63327030-shixi.jpg"
+  },
+  {
+    "id": "1742533007454",
+    "name": "zhengshu.jpg",
+    "filename": "1742533003742-309066222-zhengshu.jpg",
+    "type": "image/jpeg",
+    "size": 11911772,
+    "description": "荣誉证书",
+    "timestamp": 1742533007454,
+    "path": "http://8.138.134.78:8091/uploads/1742533003742-309066222-zhengshu.jpg"
+  },
+  {
+    "id": "1742789796062",
+    "name": "bizhi.jpg",
+    "filename": "1742789796013-584545129-bizhi.jpg",
+    "type": "image/jpeg",
+    "size": 50112,
+    "description": "壁纸",
+    "timestamp": 1742789796062,
+    "path": "http://8.138.35.63:8091/uploads/1742789796013-584545129-bizhi.jpg"
+  }
+]

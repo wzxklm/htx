@@ -1,0 +1,154 @@
+/* AI Operation Platform Specific Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background: transparent;
+}
+
+/* Override the h1 styling from style.css */
+body .container header h1 {
+    color: white !important;
+    border-bottom-color: white !important;
+}
+
+header h1 {
+    color: white !important;
+}
+
+.container header h1 {
+    color: white !important;
+}
+
+.back-link {
+    display: inline-block;
+    background: #3498db;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.back-link:hover {
+    background: #2980b9;
+}
+
+.email-section {
+    margin-bottom: 30px;
+}
+
+.email-container {
+    margin-bottom: 15px;
+}
+
+#email-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+.save-button {
+    background: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.save-button:hover {
+    background: #219653;
+}
+
+.response-display {
+    min-height: 300px;
+}
+
+#response-content {
+    margin-top: 20px;
+    background: white;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 15px;
+    min-height: 200px;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.no-response-message {
+    text-align: center;
+    color: #999;
+    padding: 30px;
+    font-style: italic;
+}
+
+.response-item {
+    background: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    white-space: pre-wrap;
+    font-family: monospace;
+}
+
+/* Error message styles */
+.error-message {
+    background-color: #ffebee;
+    color: #c62828;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ffcdd2;
+}
+
+/* Success message styles */
+.success-message {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #c8e6c9;
+}
+
+/* Loading indicator */
+.loading {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
+
+.loading::after {
+    content: "...";
+    animation: dots 1.5s steps(4, end) infinite;
+}
+
+@keyframes dots {
+    0%, 20% { content: "."; }
+    40% { content: ".."; }
+    60% { content: "..."; }
+    80%, 100% { content: ""; }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .email-container {
+        flex-direction: column;
+    }
+    
+    #email-input {
+        margin-bottom: 10px;
+    }
+    
+    .save-button {
+        width: 100%;
+    }
+}
